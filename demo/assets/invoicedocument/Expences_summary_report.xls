@@ -1,0 +1,178 @@
+<html xmlns:x="urn:schemas-microsoft-com:office:excel"><head><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>Test Sheet</x:Name><x:WorksheetOptions><x:Panes></x:Panes></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml></head><body><table border='1px'>
+						<div class="row">
+									<div class="form-group">
+										<div class="col-lg-12">
+										
+										<div class="table-responsive">
+										<table id="budgetentry" class="table table-striped" style="width:100%" ;="">
+											<thead>
+												<tr>
+							                	<th colspan="7" style="text-align:center;background-color:#DCDCDC;font-size: 20px;color:#000000;">Contiloe Pictures Pvt. Ltd.</th>
+													
+												</tr>
+												
+												<tr>
+		        									<th colspan="2" style="text-align:center;" id="reportfrommonth"></th>
+													<th colspan="2" style="text-align:center;" id="reporttonmonth">As on Date: 31/05/2019</th>
+													<th colspan="3" style="text-align:center;" id="reportproject">Vighnaharta Ganesha</th>
+													<th colspan="2" style="text-align:center;" id="reportfornmonth"></th>
+													<!--<th colspan="2" style="text-align:center;" id="reportfornmonth" ></th>-->
+												</tr>
+											</thead>
+										</table>
+							
+                               
+										
+										
+
+<!-- last Table Add Here    -----------> 
+<div class="row abc detail_div">
+									<div class="form-group">
+										<div class="col-lg-12">
+										
+										<div class="table-responsive">
+										<table id="expensebudget" class="table table-" style="width:100%" ;="">
+											<thead>
+												<tr style="border:solid 1px;">
+													<th colspan="4" style="text-align:left;background-color:#DCDCDC;font-size: 20px;color:#000000">Expenses - Budget v/s Actual</th>
+                                        
+                                                     <!--<th colspan="4" style="text-align:center;background-color:#DCDCDC;font-size: 15px;color:#000000;" class="grant_total"></th>-->
+													<th colspan="1" style="text-align:right;background-color:#DCDCDC;font-size: 15px;color:#000000;" class="grant_total"></th>
+													<th style="text-align:right;background-color:#DCDCDC;font-size: 15px;color:#000000;"></th>
+													<th colspan="1" style="text-align:right;background-color:#DCDCDC;font-size: 15px;color:#000000;" class="grant_total_e"></th>
+													<th style="text-align:right;background-color:#DCDCDC;font-size: 15px;color:#000000;"></th>
+													<th style="text-align:right;background-color:#DCDCDC;font-size: 15px;color:#000000;"></th>
+													
+												</tr>
+										<!-- 		<tr>
+													<th style="width:5%;border-left:solid 2px;">Expense Code</th>
+													<th style="width:15%;"> Expense A/c</th>
+													<th style="width:10%;text-align:right;"> Unit No</th>
+													<th style="width:10%;text-align:right;">Planned for the Month</th>
+													<th style="width:10%;">Expense Sub A/c</th>
+													<th style="width:10%;text-align:right;">Actual Expenses</th>
+													
+													<th style="width:10%;text-align:right;border-right:solid 2px;">Variance</th>
+													
+												</tr>
+ -->											</thead>
+ 
+											
+											
+											<tbody id="expensebudgetbody"> <tr style="border:solid 1px;"><th style="width:5%;">Expense Code</th><th style="width:15%;"> Expense A/c</th><th style="width:10%;text-align:right;"> Unit No</th><th style="width:10%;text-align:right;">Plan for the Month till date</th><th style="width:10%;text-align:right;">Actual Expenses Till Date</th><th style="width:10%;text-align:right;border-right:solid 2px;">Variance</th><th style="width:10%;text-align:right;border-right:solid 2px;">Planned for Day</th><th style="width:10%;text-align:right;">Actual Expenses for Day</th><th style="width:10%;text-align:right;border-right:solid 2px;">Variance</th></tr><tr><td id="shootday11">4030</td><td id="unitno1">ART DEPT WORKER WAGES</td><td style="text-align:right;" id="perdayfotage11">1</td><td style="text-align:right;" id="perdayfotage11">0</td><td style="text-align:right;" id="perdayfotage11">15100</td><td style="text-align:right;" id="perdayfotage11">-15100</td><td style="text-align:right;" id="shootday11">0</td><td style="text-align:right;" id="perdayfotage11">0</td><td style="text-align:right;" id="perdayfotage11">0</td></tr><tr><td id="shootday12">4414</td><td id="unitno2">ASSISTANT ART DIRECTOR </td><td style="text-align:right;" id="perdayfotage12">1</td><td style="text-align:right;" id="perdayfotage12">0</td><td style="text-align:right;" id="perdayfotage12">2000</td><td style="text-align:right;" id="perdayfotage12">-2000</td><td style="text-align:right;" id="shootday12">0</td><td style="text-align:right;" id="perdayfotage12">0</td><td style="text-align:right;" id="perdayfotage12">0</td></tr><tr><td id="shootday13">1600</td><td id="unitno3">COSTUME &amp; JEWELRY</td><td style="text-align:right;" id="perdayfotage13">1</td><td style="text-align:right;" id="perdayfotage13">0</td><td style="text-align:right;" id="perdayfotage13">9950</td><td style="text-align:right;" id="perdayfotage13">-9950</td><td style="text-align:right;" id="shootday13">0</td><td style="text-align:right;" id="perdayfotage13">0</td><td style="text-align:right;" id="perdayfotage13">0</td></tr><tr><td id="shootday14">2400</td><td id="unitno4">DIESEL &amp; PETROL CHARGES</td><td style="text-align:right;" id="perdayfotage14">1</td><td style="text-align:right;" id="perdayfotage14">163000</td><td style="text-align:right;" id="perdayfotage14">99690</td><td style="text-align:right;" id="perdayfotage14">63310</td><td style="text-align:right;" id="shootday14">16300</td><td style="text-align:right;" id="perdayfotage14">0</td><td style="text-align:right;" id="perdayfotage14">16300</td></tr><tr><td id="shootday15">2515</td><td id="unitno5">ELECTRICITY CHARGES</td><td style="text-align:right;" id="perdayfotage15">1</td><td style="text-align:right;" id="perdayfotage15">100000</td><td style="text-align:right;" id="perdayfotage15">230589</td><td style="text-align:right;" id="perdayfotage15">-130589</td><td style="text-align:right;" id="shootday15">3226</td><td style="text-align:right;" id="perdayfotage15">0</td><td style="text-align:right;" id="perdayfotage15">3226</td></tr><tr><td id="shootday16">2200</td><td id="unitno6">FOOD EXPENSE</td><td style="text-align:right;" id="perdayfotage16">1</td><td style="text-align:right;" id="perdayfotage16">150450</td><td style="text-align:right;" id="perdayfotage16">122243</td><td style="text-align:right;" id="perdayfotage16">28207</td><td style="text-align:right;" id="shootday16">15045</td><td style="text-align:right;" id="perdayfotage16">0</td><td style="text-align:right;" id="perdayfotage16">15045</td></tr><tr><td id="shootday17">4310</td><td id="unitno7">FUSED BULB</td><td style="text-align:right;" id="perdayfotage17">1</td><td style="text-align:right;" id="perdayfotage17">20000</td><td style="text-align:right;" id="perdayfotage17">422</td><td style="text-align:right;" id="perdayfotage17">19578</td><td style="text-align:right;" id="shootday17">645</td><td style="text-align:right;" id="perdayfotage17">0</td><td style="text-align:right;" id="perdayfotage17">645</td></tr><tr><td id="shootday18">1</td><td id="unitno8">GAS BOTTLE REFILL</td><td style="text-align:right;" id="perdayfotage18">1</td><td style="text-align:right;" id="perdayfotage18">20000</td><td style="text-align:right;" id="perdayfotage18">3300</td><td style="text-align:right;" id="perdayfotage18">16700</td><td style="text-align:right;" id="shootday18">645</td><td style="text-align:right;" id="perdayfotage18">0</td><td style="text-align:right;" id="perdayfotage18">645</td></tr><tr><td id="shootday19">4401</td><td id="unitno9">HAIR DRESSER CHARGES</td><td style="text-align:right;" id="perdayfotage19">1</td><td style="text-align:right;" id="perdayfotage19">26000</td><td style="text-align:right;" id="perdayfotage19">5200</td><td style="text-align:right;" id="perdayfotage19">20800</td><td style="text-align:right;" id="shootday19">2600</td><td style="text-align:right;" id="perdayfotage19">0</td><td style="text-align:right;" id="perdayfotage19">2600</td></tr><tr><td id="shootday110">1</td><td id="unitno10">HOUSE KEEPING CHARGES</td><td style="text-align:right;" id="perdayfotage110">1</td><td style="text-align:right;" id="perdayfotage110">26000</td><td style="text-align:right;" id="perdayfotage110">350</td><td style="text-align:right;" id="perdayfotage110">25650</td><td style="text-align:right;" id="shootday110">2600</td><td style="text-align:right;" id="perdayfotage110">0</td><td style="text-align:right;" id="perdayfotage110">2600</td></tr><tr><td id="shootday111">1400</td><td id="unitno11">JUNIOR ARTIST</td><td style="text-align:right;" id="perdayfotage111">1</td><td style="text-align:right;" id="perdayfotage111">81000</td><td style="text-align:right;" id="perdayfotage111">41400</td><td style="text-align:right;" id="perdayfotage111">39600</td><td style="text-align:right;" id="shootday111">8100</td><td style="text-align:right;" id="perdayfotage111">0</td><td style="text-align:right;" id="perdayfotage111">8100</td></tr><tr><td id="shootday112">4050</td><td id="unitno12">LIGHT MAN CHARGES</td><td style="text-align:right;" id="perdayfotage112">1</td><td style="text-align:right;" id="perdayfotage112">81000</td><td style="text-align:right;" id="perdayfotage112">2366</td><td style="text-align:right;" id="perdayfotage112">78634</td><td style="text-align:right;" id="shootday112">8100</td><td style="text-align:right;" id="perdayfotage112">0</td><td style="text-align:right;" id="perdayfotage112">8100</td></tr><tr><td id="shootday113">4300</td><td id="unitno13">LOADING - UNLOADING CHARGES</td><td style="text-align:right;" id="perdayfotage113">1</td><td style="text-align:right;" id="perdayfotage113">20000</td><td style="text-align:right;" id="perdayfotage113">5100</td><td style="text-align:right;" id="perdayfotage113">14900</td><td style="text-align:right;" id="shootday113">645</td><td style="text-align:right;" id="perdayfotage113">0</td><td style="text-align:right;" id="perdayfotage113">645</td></tr><tr><td id="shootday114">2</td><td id="unitno14">LOCATION HIRE</td><td style="text-align:right;" id="perdayfotage114">1</td><td style="text-align:right;" id="perdayfotage114">25000</td><td style="text-align:right;" id="perdayfotage114">10000</td><td style="text-align:right;" id="perdayfotage114">15000</td><td style="text-align:right;" id="shootday114">806</td><td style="text-align:right;" id="perdayfotage114">0</td><td style="text-align:right;" id="perdayfotage114">806</td></tr><tr><td id="shootday115">1700</td><td id="unitno15">PRODUCTION &amp; LIGHT MATERIAL PURCHASE</td><td style="text-align:right;" id="perdayfotage115">1</td><td style="text-align:right;" id="perdayfotage115">50000</td><td style="text-align:right;" id="perdayfotage115">4190</td><td style="text-align:right;" id="perdayfotage115">45810</td><td style="text-align:right;" id="shootday115">1613</td><td style="text-align:right;" id="perdayfotage115">0</td><td style="text-align:right;" id="perdayfotage115">1613</td></tr><tr><td id="shootday116">2000</td><td id="unitno16">PRODUCTION MISC EXP</td><td style="text-align:right;" id="perdayfotage116">1</td><td style="text-align:right;" id="perdayfotage116">40000</td><td style="text-align:right;" id="perdayfotage116">40668</td><td style="text-align:right;" id="perdayfotage116">-668</td><td style="text-align:right;" id="shootday116">4000</td><td style="text-align:right;" id="perdayfotage116">0</td><td style="text-align:right;" id="perdayfotage116">4000</td></tr><tr><td id="shootday117">1800</td><td id="unitno17">SETTING PROPERTY</td><td style="text-align:right;" id="perdayfotage117">1</td><td style="text-align:right;" id="perdayfotage117">150000</td><td style="text-align:right;" id="perdayfotage117">35825</td><td style="text-align:right;" id="perdayfotage117">114175</td><td style="text-align:right;" id="shootday117">4839</td><td style="text-align:right;" id="perdayfotage117">0</td><td style="text-align:right;" id="perdayfotage117">4839</td></tr><tr><td id="shootday118">4412</td><td id="unitno18">SOUND RECORDIST WITH BOOM MAN CHARGES</td><td style="text-align:right;" id="perdayfotage118">1</td><td style="text-align:right;" id="perdayfotage118">27000</td><td style="text-align:right;" id="perdayfotage118">27000</td><td style="text-align:right;" id="perdayfotage118">0</td><td style="text-align:right;" id="shootday118">2700</td><td style="text-align:right;" id="perdayfotage118">0</td><td style="text-align:right;" id="perdayfotage118">2700</td></tr><tr><td id="shootday119">4040</td><td id="unitno19">SPOT BOY CHARGES</td><td style="text-align:right;" id="perdayfotage119">1</td><td style="text-align:right;" id="perdayfotage119">27000</td><td style="text-align:right;" id="perdayfotage119">1070</td><td style="text-align:right;" id="perdayfotage119">25930</td><td style="text-align:right;" id="shootday119">2700</td><td style="text-align:right;" id="perdayfotage119">0</td><td style="text-align:right;" id="perdayfotage119">2700</td></tr><tr><td id="shootday120">2600</td><td id="unitno20">TRANSPORT CHARGES</td><td style="text-align:right;" id="perdayfotage120">1</td><td style="text-align:right;" id="perdayfotage120">27000</td><td style="text-align:right;" id="perdayfotage120">28593</td><td style="text-align:right;" id="perdayfotage120">-1593</td><td style="text-align:right;" id="shootday120">2700</td><td style="text-align:right;" id="perdayfotage120">0</td><td style="text-align:right;" id="perdayfotage120">2700</td></tr><tr><td id="shootday121">4502</td><td id="unitno21">VEHICLE HIRE</td><td style="text-align:right;" id="perdayfotage121">1</td><td style="text-align:right;" id="perdayfotage121">27000</td><td style="text-align:right;" id="perdayfotage121">1500</td><td style="text-align:right;" id="perdayfotage121">25500</td><td style="text-align:right;" id="shootday121">2700</td><td style="text-align:right;" id="perdayfotage121">0</td><td style="text-align:right;" id="perdayfotage121">2700</td></tr><tr><td id="shootday122">2100</td><td id="unitno22">WATER CHARGES</td><td style="text-align:right;" id="perdayfotage122">1</td><td style="text-align:right;" id="perdayfotage122">60000</td><td style="text-align:right;" id="perdayfotage122">28095</td><td style="text-align:right;" id="perdayfotage122">31905</td><td style="text-align:right;" id="shootday122">1935</td><td style="text-align:right;" id="perdayfotage122">0</td><td style="text-align:right;" id="perdayfotage122">1935</td></tr><tr><td id="shootday123">4200</td><td id="unitno23">WIG CHARGES </td><td style="text-align:right;" id="perdayfotage123">1</td><td style="text-align:right;" id="perdayfotage123">60000</td><td style="text-align:right;" id="perdayfotage123">13500</td><td style="text-align:right;" id="perdayfotage123">46500</td><td style="text-align:right;" id="shootday123">1935</td><td style="text-align:right;" id="perdayfotage123">0</td><td style="text-align:right;" id="perdayfotage123">1935</td></tr><tr><td id="shootday124">1</td><td id="unitno24">WRITER</td><td style="text-align:right;" id="perdayfotage124">1</td><td style="text-align:right;" id="perdayfotage124">60000</td><td style="text-align:right;" id="perdayfotage124">500000</td><td style="text-align:right;" id="perdayfotage124">-440000</td><td style="text-align:right;" id="shootday124">1935</td><td style="text-align:right;" id="perdayfotage124">0</td><td style="text-align:right;" id="perdayfotage124">1935</td></tr><tr><td id="shootday125">4030</td><td id="unitno25">ART DEPT WORKER WAGES</td><td style="text-align:right;" id="perdayfotage125">2</td><td style="text-align:right;" id="perdayfotage125">2150</td><td style="text-align:right;" id="perdayfotage125">5375</td><td style="text-align:right;" id="perdayfotage125">-3225</td><td style="text-align:right;" id="shootday125">2150</td><td style="text-align:right;" id="perdayfotage125">0</td><td style="text-align:right;" id="perdayfotage125">2150</td></tr><tr><td id="shootday126">2410</td><td id="unitno26">AUTO FARE FOR RUNNER / SPOT / MISC</td><td style="text-align:right;" id="perdayfotage126">2</td><td style="text-align:right;" id="perdayfotage126">1770</td><td style="text-align:right;" id="perdayfotage126">100</td><td style="text-align:right;" id="perdayfotage126">1670</td><td style="text-align:right;" id="shootday126">1770</td><td style="text-align:right;" id="perdayfotage126">0</td><td style="text-align:right;" id="perdayfotage126">1770</td></tr><tr><td id="shootday127">1100</td><td id="unitno27">CAMERA HIRE</td><td style="text-align:right;" id="perdayfotage127">2</td><td style="text-align:right;" id="perdayfotage127">11500</td><td style="text-align:right;" id="perdayfotage127">11500</td><td style="text-align:right;" id="perdayfotage127">0</td><td style="text-align:right;" id="shootday127">11500</td><td style="text-align:right;" id="perdayfotage127">0</td><td style="text-align:right;" id="perdayfotage127">11500</td></tr><tr><td id="shootday128">2400</td><td id="unitno28">DIESEL &amp; PETROL CHARGES</td><td style="text-align:right;" id="perdayfotage128">2</td><td style="text-align:right;" id="perdayfotage128">11500</td><td style="text-align:right;" id="perdayfotage128">16614</td><td style="text-align:right;" id="perdayfotage128">-5114</td><td style="text-align:right;" id="shootday128">11500</td><td style="text-align:right;" id="perdayfotage128">0</td><td style="text-align:right;" id="perdayfotage128">11500</td></tr><tr><td id="shootday129">2510</td><td id="unitno29">DIESEL &amp; PETROL CHARGES - UNIT 2</td><td style="text-align:right;" id="perdayfotage129">2</td><td style="text-align:right;" id="perdayfotage129">13500</td><td style="text-align:right;" id="perdayfotage129">1170</td><td style="text-align:right;" id="perdayfotage129">12330</td><td style="text-align:right;" id="shootday129">13500</td><td style="text-align:right;" id="perdayfotage129">0</td><td style="text-align:right;" id="perdayfotage129">13500</td></tr><tr><td id="shootday130">4020</td><td id="unitno30">DRESS MAN WAGES </td><td style="text-align:right;" id="perdayfotage130">2</td><td style="text-align:right;" id="perdayfotage130">2200</td><td style="text-align:right;" id="perdayfotage130">3300</td><td style="text-align:right;" id="perdayfotage130">-1100</td><td style="text-align:right;" id="shootday130">2200</td><td style="text-align:right;" id="perdayfotage130">0</td><td style="text-align:right;" id="perdayfotage130">2200</td></tr><tr><td id="shootday131">2515</td><td id="unitno31">ELECTRICITY CHARGES</td><td style="text-align:right;" id="perdayfotage131">2</td><td style="text-align:right;" id="perdayfotage131">2200</td><td style="text-align:right;" id="perdayfotage131">1620</td><td style="text-align:right;" id="perdayfotage131">580</td><td style="text-align:right;" id="shootday131">2200</td><td style="text-align:right;" id="perdayfotage131">0</td><td style="text-align:right;" id="perdayfotage131">2200</td></tr><tr><td id="shootday132">2200</td><td id="unitno32">FOOD EXPENSE</td><td style="text-align:right;" id="perdayfotage132">2</td><td style="text-align:right;" id="perdayfotage132">2200</td><td style="text-align:right;" id="perdayfotage132">0</td><td style="text-align:right;" id="perdayfotage132">2200</td><td style="text-align:right;" id="shootday132">2200</td><td style="text-align:right;" id="perdayfotage132">0</td><td style="text-align:right;" id="perdayfotage132">2200</td></tr><tr><td id="shootday133">2210</td><td id="unitno33">FOOD EXPENSE UNIT 2</td><td style="text-align:right;" id="perdayfotage133">2</td><td style="text-align:right;" id="perdayfotage133">6195</td><td style="text-align:right;" id="perdayfotage133">5838</td><td style="text-align:right;" id="perdayfotage133">357</td><td style="text-align:right;" id="shootday133">6195</td><td style="text-align:right;" id="perdayfotage133">0</td><td style="text-align:right;" id="perdayfotage133">6195</td></tr><tr><td id="shootday134">2520</td><td id="unitno34">GENERATOR HIRE</td><td style="text-align:right;" id="perdayfotage134">2</td><td style="text-align:right;" id="perdayfotage134">6195</td><td style="text-align:right;" id="perdayfotage134">0</td><td style="text-align:right;" id="perdayfotage134">6195</td><td style="text-align:right;" id="shootday134">6195</td><td style="text-align:right;" id="perdayfotage134">0</td><td style="text-align:right;" id="perdayfotage134">6195</td></tr><tr><td id="shootday135">4050</td><td id="unitno35">LIGHT MAN CHARGES</td><td style="text-align:right;" id="perdayfotage135">2</td><td style="text-align:right;" id="perdayfotage135">5915</td><td style="text-align:right;" id="perdayfotage135">4732</td><td style="text-align:right;" id="perdayfotage135">1183</td><td style="text-align:right;" id="shootday135">5915</td><td style="text-align:right;" id="perdayfotage135">0</td><td style="text-align:right;" id="perdayfotage135">5915</td></tr><tr><td id="shootday136">4300</td><td id="unitno36">LOADING - UNLOADING CHARGES</td><td style="text-align:right;" id="perdayfotage136">2</td><td style="text-align:right;" id="perdayfotage136">5915</td><td style="text-align:right;" id="perdayfotage136">1300</td><td style="text-align:right;" id="perdayfotage136">4615</td><td style="text-align:right;" id="shootday136">5915</td><td style="text-align:right;" id="perdayfotage136">0</td><td style="text-align:right;" id="perdayfotage136">5915</td></tr><tr><td id="shootday137">4000</td><td id="unitno37">MAKEUP MAN</td><td style="text-align:right;" id="perdayfotage137">2</td><td style="text-align:right;" id="perdayfotage137">2400</td><td style="text-align:right;" id="perdayfotage137">2400</td><td style="text-align:right;" id="perdayfotage137">0</td><td style="text-align:right;" id="shootday137">2400</td><td style="text-align:right;" id="perdayfotage137">0</td><td style="text-align:right;" id="perdayfotage137">2400</td></tr><tr><td id="shootday138">2010</td><td id="unitno38">PRODUCTION MISC EXP - UNIT 2</td><td style="text-align:right;" id="perdayfotage138">2</td><td style="text-align:right;" id="perdayfotage138">1500</td><td style="text-align:right;" id="perdayfotage138">3503</td><td style="text-align:right;" id="perdayfotage138">-2003</td><td style="text-align:right;" id="shootday138">1500</td><td style="text-align:right;" id="perdayfotage138">0</td><td style="text-align:right;" id="perdayfotage138">1500</td></tr><tr><td id="shootday139">4060</td><td id="unitno39">ROSTRUM / CRANE / PANTHER / TROLLY ATTND CHARGES</td><td style="text-align:right;" id="perdayfotage139">2</td><td style="text-align:right;" id="perdayfotage139">2366</td><td style="text-align:right;" id="perdayfotage139">20000</td><td style="text-align:right;" id="perdayfotage139">-17634</td><td style="text-align:right;" id="shootday139">2366</td><td style="text-align:right;" id="perdayfotage139">0</td><td style="text-align:right;" id="perdayfotage139">2366</td></tr><tr><td id="shootday140">1800</td><td id="unitno40">SETTING PROPERTY</td><td style="text-align:right;" id="perdayfotage140">2</td><td style="text-align:right;" id="perdayfotage140">2366</td><td style="text-align:right;" id="perdayfotage140">2020</td><td style="text-align:right;" id="perdayfotage140">346</td><td style="text-align:right;" id="shootday140">2366</td><td style="text-align:right;" id="perdayfotage140">0</td><td style="text-align:right;" id="perdayfotage140">2366</td></tr><tr><td id="shootday141">4040</td><td id="unitno41">SPOT BOY CHARGES</td><td style="text-align:right;" id="perdayfotage141">2</td><td style="text-align:right;" id="perdayfotage141">3225</td><td style="text-align:right;" id="perdayfotage141">4280</td><td style="text-align:right;" id="perdayfotage141">-1055</td><td style="text-align:right;" id="shootday141">3225</td><td style="text-align:right;" id="perdayfotage141">0</td><td style="text-align:right;" id="perdayfotage141">3225</td></tr><tr><td id="shootday142">2600</td><td id="unitno42">TRANSPORT CHARGES</td><td style="text-align:right;" id="perdayfotage142">2</td><td style="text-align:right;" id="perdayfotage142">11200</td><td style="text-align:right;" id="perdayfotage142">12200</td><td style="text-align:right;" id="perdayfotage142">-1000</td><td style="text-align:right;" id="shootday142">11200</td><td style="text-align:right;" id="perdayfotage142">0</td><td style="text-align:right;" id="perdayfotage142">11200</td></tr><tr><td id="shootday143">4502</td><td id="unitno43">VEHICLE HIRE</td><td style="text-align:right;" id="perdayfotage143">2</td><td style="text-align:right;" id="perdayfotage143">3540</td><td style="text-align:right;" id="perdayfotage143">4500</td><td style="text-align:right;" id="perdayfotage143">-960</td><td style="text-align:right;" id="shootday143">3540</td><td style="text-align:right;" id="perdayfotage143">0</td><td style="text-align:right;" id="perdayfotage143">3540</td></tr><tr><td id="shootday144">4200</td><td id="unitno44">WIG CHARGES </td><td style="text-align:right;" id="perdayfotage144">2</td><td style="text-align:right;" id="perdayfotage144">3540</td><td style="text-align:right;" id="perdayfotage144">0</td><td style="text-align:right;" id="perdayfotage144">3540</td><td style="text-align:right;" id="shootday144">3540</td><td style="text-align:right;" id="perdayfotage144">0</td><td style="text-align:right;" id="perdayfotage144">3540</td></tr><tr style="border-left:solid 0px ;"><td style="border-left:solid 0px;" id="unitnoNaN"></td><td style="border-left:solid 0px;" id="unitnoNaN">Artist Cost</td><td style="border-left:solid 0px;" id="unitnoNaN">Unit 1</td><td style=" text-align:right;" id="averageunitNaN">800000 </td><td style=" text-align:right;" id="actaulfotageNaN">757868 </td><td style=" text-align:right;" id="actaulfotageNaN">42132</td></tr><tr><td style="border-left:solid 0px;" id="unitnoNaN"></td><td style="border-left:solid 0px;" id="unitnoNaN">Artist Cost</td><td id="unitnoNaN" style="border-left:solid 0px ;">Unit 2</td><td style="text-align:right;" id="averageunitNaN">55000</td><td style="text-align:right;" id="actaulfotageNaN">0</td><td style="text-align:right;" id="actaulfotageNaN">55000</td></tr><tr><td style="border-left:solid 0px;" id="unitnoNaN"></td><td style="border-left:solid 0px;" id="unitnoNaN">Artist Cost</td><td id="unitnoNaN" style="border-left:solid 0px ;">Unit 3</td><td style="text-align:right;" id="averageunitNaN">0</td><td style="text-align:right;" id="actaulfotageNaN">0</td><td style="text-align:right;" id="actaulfotageNaN">0</td></tr> <tr style="border:solid 1px;"><td></td><th>Total Summary</th><td></td><td style="text-align:right">2196827</td><td style="text-align:right">2086471</td><td style="text-align:right">110356</td><td style="text-align:right">187146</td><td style="text-align:right">0</td><td style="text-align:right">187146</td></tr></tbody>	
+											</table>
+					
+					<!--RAVI-->
+					
+					<!--		<div class="row">
+									<div class="form-group">
+										<div class="col-lg-12">
+										
+										<div class="table-responsive">
+										<table id="peoplecost" class="table table-" style="width:100%";>
+											<thead >
+												<tr>
+													<th colspan="8" style="text-align:center;background-color:#EE82EE;font-size: 15px;color:#000000" >Artist Cost</th>
+													
+												</tr>
+												<tr>
+													<th colspan="3" style="text-align:center;background-color:#1E90FF;color:#000000" >Planned</th>
+													<th colspan="5" style="text-align:center;background-color:#32CD32;color:#000000" >Actual</th>
+												</tr>
+											
+												<tr>
+													<th style="border-left:solid 2px;" ></th>
+													<th  style="text-align:right;"> Monthly Budget</th>
+													<th  style="text-align:right;border-right:solid 2px;"> For Shoot days</th>
+													<th  style="text-align:right;">No. of Units </th>
+													<th  style="text-align:right;">Targetted Expenses till date</th>
+													<th  style="text-align:right;" >Actual</th>
+													<th  style="text-align:right;">Difference</th>
+													<th  style="text-align:right;right;border-right:solid 2px;">Variance %</th>
+												</tr>
+											</thead >
+											<tbody id="peoplecostbody">
+												
+											</tbody>	
+											</table>
+									    </div>
+										
+										</div>
+									</div>	
+											
+							</div>-->
+								<!--RAVI-->
+								
+								
+<!-- 											<div class="row">
+											<div class="col-md-12">
+											<a class="get_exxcel pull-right" id="get_exxcel" onClick="javascript:fnExcelReport();" href="#"><button class="btn btn-sm btn-success btn-sm pull-right">Download Expenses - Budget v/s Actual</button></a>
+											</div>
+										    </div>
+										    <br>
+
+											<br> -->											
+									    </div>
+										
+										</div>
+									</div>	
+											
+								</div>
+
+<!-- if status is 0 -->
+<div class="row abc summary_div" style="display: none;">
+									<div class="form-group">
+										<div class="col-lg-12">
+										
+										<div class="table-responsive">
+										<table id="expensebudget" class="table table-" style="width:100%" ;="">
+											<thead>
+												<!--<tr>
+													<th colspan="3" style="text-align:left;background-color:#DCDCDC;font-size: 20px;color:#000000" >Expenses - Budget v/s Actual</th>
+                                        
+                                                    <th colspan="4" style="text-align:center;background-color:#DCDCDC;font-size: 14px;color:#000000" class="grant_total"></th>													
+													
+												</tr>
+											-->	
+											<!-- 	<tr>
+													<th style="width:5%;border-left:solid 2px;">Expense Code</th>
+													<th style="width:15%;"> Expense A/c</th>
+													<th style="width:10%;text-align:right;"> Unit No</th>
+													<th style="width:10%;text-align:right;">Planned for the Month</th>
+													<th style="width:10%;">Expense Sub A/c</th>
+													<th style="width:10%;text-align:right;">Actual Expenses</th>
+													
+													<th style="width:10%;text-align:right;border-right:solid 2px;">Variance</th>
+													
+												</tr> -->
+											</thead>
+											<tbody id="expensebudgetbody1">
+												
+											</tbody>	
+											</table>
+<!-- 											<div class="row">
+											<div class="col-md-12">
+											<a class="get_exxcel pull-right" id="get_exxcel" onClick="javascript:fnExcelReport();" href="#"><button class="btn btn-sm btn-success btn-sm pull-right">Download Expenses - Budget v/s Actual</button></a>
+											</div>
+										    </div>
+										    <br>
+
+											<br> -->											
+									    </div>
+										
+										</div>
+									</div>	
+											
+								</div>
+
+
+<!-- last Table Add Here    -----------> 
+									
+                         </div>
+						</div>
+									</div>
+									
+						
+				</div>
+				
+						</table></body></html>

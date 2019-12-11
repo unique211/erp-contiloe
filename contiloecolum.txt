@@ -1,0 +1,2 @@
+ 1)column:  effecitivedate
+  1)column:  leavingdate

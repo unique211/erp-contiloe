@@ -1,0 +1,10 @@
+select sum(extrahour * overtimerate) as total
+	from peopleattdance, actualschedual
+	where actualschedual.id = peopleattdance.aid
+	  and peopleattdance.peopletypeid='2'
+	  and actualschedual.projectid = '1'
+	  and peopleattdance.duration != '0:0:0'
+	  and peopleattdance.duration != '00:00:00'
+	  and peopleattdance.duration != '00:00:0'
+	  and actualschedual.date >= '2019-07-01'
+	  and actualschedual.date <= '2019-07-31' 140901

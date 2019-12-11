@@ -1,0 +1,37 @@
+select sum(rate + (extrahour*lis_artist.overtime) ) as total
+    	from peopleattdance, actualschedual, lis_artist
+    	where actualschedual.id 		= peopleattdance.aid
+    	 and lis_artist.pid 			= peopleattdance.peopleid
+    	and lis_artist.type				='artist'
+    	and peopleattdance.peopletypeid	='1'
+    	and actualschedual.projectid	='1'
+    	and lis_artist.status			='1'
+    	and peopleattdance.duration 	<>'0:0:0'
+    	and actualschedual.date 		>='2019-07-06'
+    	and actualschedual.date 		<='2019-07-06'
+		and lis_artist.proid			='1'
+		and actualschedual.unitno		='1' select sum(rate + (extrahour*lis_artist.overtime) ) as total
+    	from peopleattdance, actualschedual, lis_artist
+    	where actualschedual.id 		= peopleattdance.aid
+    	 and lis_artist.pid 			= peopleattdance.peopleid
+    	and lis_artist.type				='artist'
+    	and peopleattdance.peopletypeid	='1'
+    	and actualschedual.projectid	='1'
+    	and lis_artist.status			='1'
+    	and peopleattdance.duration 	<>'0:0:0'
+    	and actualschedual.date 		>='2019-07-06'
+    	and actualschedual.date 		<='2019-07-06'
+		and lis_artist.proid			='1'
+		and actualschedual.unitno		='2' select sum(rate + (extrahour*lis_artist.overtime) ) as total
+    	from peopleattdance, actualschedual, lis_artist
+    	where actualschedual.id 		= peopleattdance.aid
+    	 and lis_artist.pid 			= peopleattdance.peopleid
+    	and lis_artist.type				='artist'
+    	and peopleattdance.peopletypeid	='1'
+    	and actualschedual.projectid	='1'
+    	and lis_artist.status			='1'
+    	and peopleattdance.duration 	<>'0:0:0'
+    	and actualschedual.date 		>='2019-07-06'
+    	and actualschedual.date 		<='2019-07-06'
+		and lis_artist.proid			='1'
+		and actualschedual.unitno		='3' 

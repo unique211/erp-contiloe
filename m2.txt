@@ -1,0 +1,1166 @@
+select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='41'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='41' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='42'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='42' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='29'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='29' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='14'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='14' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='20'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='20' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='28'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='28' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='44'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='44' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='27'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='27'   
+ select expenses_subaccount.name, expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+	from actualexpense, expenses_subaccount, actualschedual
+	where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+	  and actualexpense.expenseid='26'
+	  and actualschedual.date >='2019-07-01'
+	  and actualschedual.date <='2019-07-31'
+	  and actualschedual.unitno='1'
+	  and actualschedual.projectid='1'
+	  select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='26'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='26' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='15'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='15' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='63'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='63' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='34'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='34' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='60'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='60' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='17'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='17' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='38'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='38' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='33'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='33' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='6'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='6' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='43'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='43' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='21'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='21' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='24'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='46' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='39'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='39' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='22'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='22' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='35'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='35' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='40'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='40' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='37'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='37' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='32'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='32' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='25'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='25' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='59'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='59' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='41'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='41' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='42'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='42' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='29'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='29' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='14'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='14' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='20'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='20' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='28'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='28' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='44'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='44' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='27'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='27'   
+ select expenses_subaccount.name, expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+	from actualexpense, expenses_subaccount, actualschedual
+	where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+	  and actualexpense.expenseid='26'
+	  and actualschedual.date >='2019-07-01'
+	  and actualschedual.date <='2019-07-31'
+	  and actualschedual.unitno='1'
+	  and actualschedual.projectid='1'
+	  select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='26'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='26' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='15'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='15' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='63'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='63' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='34'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='34' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='60'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='60' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='17'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='17' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='38'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='38' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='33'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='33' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='6'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='6' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='43'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='43' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='21'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='21' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='24'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='46' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='39'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='39' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='22'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='22' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='35'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='35' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='40'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='40' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='37'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='37' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='32'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='32' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='25'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='25' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='59'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='59' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='41'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='41' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='42'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='42' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='29'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='29' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='14'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='14' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='20'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='20' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='28'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='28' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='44'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='44' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='27'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='27'   
+ select expenses_subaccount.name, expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+	from actualexpense, expenses_subaccount, actualschedual
+	where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+	  and actualexpense.expenseid='26'
+	  and actualschedual.date >='2019-07-01'
+	  and actualschedual.date <='2019-07-31'
+	  and actualschedual.unitno='1'
+	  and actualschedual.projectid='1'
+	  select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='26'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='26' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='15'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='15' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='63'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='63' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='34'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='34' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='60'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='60' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='17'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='17' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='38'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='38' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='33'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='33' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='6'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='6' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='43'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='43' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='21'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='21' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='24'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='46' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='39'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='39' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='22'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='22' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='35'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='35' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='40'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='40' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='37'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='37' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='32'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='32' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='25'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='25' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='59'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='59' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='41'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='41' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='42'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='42' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='29'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='29' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='14'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='14' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='20'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='20' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='28'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='28' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='44'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='44' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='27'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='27'   
+ select expenses_subaccount.name, expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+	from actualexpense, expenses_subaccount, actualschedual
+	where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+	  and actualexpense.expenseid='26'
+	  and actualschedual.date >='2019-07-01'
+	  and actualschedual.date <='2019-07-31'
+	  and actualschedual.unitno='1'
+	  and actualschedual.projectid='1'
+	  select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='26'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='26' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='15'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='15' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='63'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='63' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='34'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='34' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='60'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='60' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='17'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='17' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='38'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='38' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='33'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='33' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='6'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='6' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='43'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='43' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='21'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='21' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='24'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='46' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='39'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='39' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='22'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='22' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='35'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='35' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='40'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='40' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='37'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='37' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='32'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='32' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='25'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='25' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='59'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='59' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='41'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='41' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='42'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='42' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='29'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='29' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='14'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='14' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='20'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='20' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='28'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='28' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='44'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='44' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='27'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='27'   
+ select expenses_subaccount.name, expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+	from actualexpense, expenses_subaccount, actualschedual
+	where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+	  and actualexpense.expenseid='26'
+	  and actualschedual.date >='2019-07-01'
+	  and actualschedual.date <='2019-07-31'
+	  and actualschedual.unitno='1'
+	  and actualschedual.projectid='1'
+	  select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='26'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='26' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='15'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='15' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='63'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='63' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='34'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='34' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='60'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='60' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='17'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='17' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='38'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='38' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='33'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='33' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='6'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='6' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='43'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='43' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='21'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='21' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='24'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='46' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='39'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='39' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='22'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='22' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='35'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='35' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='40'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='40' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='37'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='37' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='32'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='32' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='25'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='25' select expenses_subaccount.expensesid, sum(actualexpense.rate * actualexpense.qty) as tot_amnt, subaccountid
+from actualexpense, expenses_subaccount, actualschedual
+where expenses_subaccount.id = actualexpense.subaccountid and actualschedual.id = actualexpense.aid
+  and actualexpense.expenseid='59'
+  and actualschedual.date >='2019-07-01'
+  and actualschedual.date <='2019-07-31'
+  and actualschedual.unitno=''
+  and actualschedual.projectid='1'
+  and expenses_subaccount.expensesid='59' 

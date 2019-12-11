@@ -1,0 +1,25 @@
+/*@font-face {
+   font-family: myFirstFont;
+   src: url("raleway/Raleway-Regular.ttf");
+}
+* {
+   font-family: myFirstFont;
+}*/
+.subaddbtn{
+	margin-top:-10px;	
+}
+.amountnumber{
+	text-align:right;	
+}
+.closehideshow{
+	margin-right:10px;
+}
+.optionbtnright{
+	margin-right:10px;
+}
+.optionbtnleft{
+	margin-left:10px;
+}
+.selectwidth{
+	width:100%;
+}

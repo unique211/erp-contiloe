@@ -1,0 +1,76 @@
+<input type="file" form="vendors_form"  class="form-control input-sm" id="attachreg_certy" name="attachreg_certy" required>
+<input type="hidden" id="attachregcerty_hidden" value="">
+<div id="msg"></div>
+
+
+js code:
+$(document).on("mousedown","#BOCW_file",function(){
+	var id="BOCW_file";
+	var hiddenid="BOCW_hidden";
+	var msgid="msg51";
+	//$('#BOCW_file').removeAttr('form');
+	uploadfile(id,hiddenid,msgid);
+});
+function uploadfile(id,hiddenid,msgid){
+	console.log(id+'-'+hiddenid+'-'+msgid);
+	$('#'+id).ajaxfileupload({
+	  //'action' : 'callAction',
+	  'action' : baseurl+'wadhwa/doc_image_upload',
+	  params:{id:id},
+	  'onStart': function() {$('#'+msgid).html("<font color='red'><i class='fa fa-refresh fa-spin fa-3x fa-fw'></i>Please wait file is uploading.....</font>"); },
+	  'onComplete' : function(response) {
+	  console.log(response);
+		  if(response==''){
+			  $('#'+msgid).html("<font color='red'>"+"Error in file upload"+"</font>");
+		  }else{
+			  
+			   $('#'+hiddenid).val(response);
+			   $('#'+msgid).html("<font id='doc_image_name' color='green'>"+response+"</font><button class='delete_doc btn btn-sm  btn-xs  btn-danger' id="+response+'###'+hiddenid+'###'+msgid+" name="+response+'-'+hiddenid+'-'+msgid+"><i class='fa fa-trash'></i></button>");
+			  
+
+		} 
+
+		}
+	});
+}
+
+Controller function:
+public function doc_image_upload()
+	{
+		$this->load->helper("file");	
+		$this->load->library("upload");
+		$id=$this->input->post('id');
+		$size='';
+		if($id == 'attachreg_certy'){
+			$size=$_FILES['attachreg_certy']['size'];
+		}
+		
+		if ($size > 0){
+			$this->upload->initialize(array( 
+		       "upload_path" => './assets/documents/',
+		       "overwrite" => FALSE,
+		       "max_filename" => 300,
+		       "remove_spaces" => TRUE,
+//		       "allowed_types" => 'jpg|jpeg|png|gif',
+		       "allowed_types" => '*',
+		       "max_size" => 1024*10,
+		    ));
+			
+			
+
+		  // if (!$this->upload->do_upload('attachreg_certy')) {
+		   if (!$this->upload->do_upload($id)) {
+			$error = array('error' => $this->upload->display_errors());
+			echo json_encode($error);
+		}
+
+		    $data = $this->upload->data();
+			$path = $data['file_name'];
+			
+			echo json_encode($path);	
+		}else{
+			echo "no file"; 
+		}
+		
+		
+	}
