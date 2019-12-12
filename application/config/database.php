@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'contiloe_db',
+	'hostname' => 'us-cdbr-iron-east-05.cleardb.net',
+	'username' => 'b448148caae6d1',
+	'password' => 'c7871022',
+	'database' => 'heroku_180f1a577463355',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
