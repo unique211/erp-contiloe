@@ -110,21 +110,32 @@ class Settings extends CI_Controller {
 		}
 		else if($table_name=="lis_artist")
 		{
-			$data = array(
-				'role_id' => $this->input->post('roleid'),
-				'pid' => $this->input->post('persone'),
-				'proid' => $this->input->post('proid'),
-				'effecitivedate' => $this->input->post('date'),
-				'leavingdate' => $this->input->post('leavingdate'),
-				'creditday' => $this->input->post('creditday'),
-				'rate' => $this->input->post('rate'),
-				'perunit' => $this->input->post('perunit'),
-				'overtime' => $this->input->post('overtime'),
-				'status' => $this->input->post('status'),
-				'type' => $this->input->post('type'),
-				'attachment' => $this->input->post('filename'),
+			$data	= $this->input->post('artistObj');
 
+			$data = json_decode($this->input->post('artistObj'), true);	
+			foreach($data as $datainfo){
+				
+				$entries = array(
+				'role_id' => $datainfo['roleid'],
+				'pid' => $datainfo['persone'],
+				'proid' => $datainfo['proid'],
+				'effecitivedate' => $datainfo['date'],
+				'leavingdate' =>$datainfo['ldate'],
+				'creditday' => $datainfo['creditday'],
+				'rate' => $datainfo['rate'],
+				'perunit' => $datainfo['perunit'],
+				'overtime' => $datainfo['overtime'],
+				'status' => $datainfo['status'],
+				'type' => $datainfo['type'],
+				'attachment' => $datainfo['filename'],
+	
 			);
+			array_push($entries1,$entries);
+			
+			
+		} 
+		
+		$data1=$this->db->insert_batch($table_name, $entries1);
 		}else if($table_name=="projectdocument")
 		{
 			$data = array(
